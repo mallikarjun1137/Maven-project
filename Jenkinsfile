@@ -25,7 +25,7 @@ pipeline {
               steps {
                 sh '''
                 docker build -t multipipeline .
-                docker run --name multipipeline-master -itd multipipeline
+                docker run -itd multipipeline
                 '''
             }
          }
