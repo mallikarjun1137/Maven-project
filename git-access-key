@@ -1,2 +1,4 @@
 username: mallikarjun1137
 password: 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
+curl --header  "PRIVATE-TOKEN:$(PRIVATE_TOKEN)" "https://mallikarjun.com/api/v4/users?&per_page=100"  ---> to get the github user info
+curl -H "Authorization: token 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" https://api.github.com/orgs/myorganisation1137 ----> to get the github orgnisation info
